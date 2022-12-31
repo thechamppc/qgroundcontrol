@@ -216,4 +216,12 @@ Rectangle {
             onClicked:      largeProgressBar._userHide = true
         }
     }
+    Button{
+           anchors.right: parent.right
+           id: btn
+           Layout.fillHeight: true
+           width: 150
+           height: 54
+           text: "LOGOUT"
+       }
 }
